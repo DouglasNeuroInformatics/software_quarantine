@@ -1,0 +1,13 @@
+conflict(myModuleName())
+prereq("minc-toolkit-v2")
+prereq("anaconda/2022.05")
+
+local dirname = require 'posix.libgen'.dirname
+local basepath = pathJoin(dirname(dirname(dirname(dirname(myFileName())))),"software",myModuleName(),myModuleVersion(),"install")
+
+ -- setenv( "QBATCH_PPJ", pathJoin(basepath,"bin/") )
+setenv ("QBATCH_SYSTEM", "local")
+
+
+prepend_path( "PATH",           pathJoin(basepath,"bin"))
+prepend_path( "PYTHONPATH", 		pathJoin(basepath,"lib/python3.10/site-packages"))

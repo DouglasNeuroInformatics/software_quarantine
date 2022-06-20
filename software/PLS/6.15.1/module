@@ -1,0 +1,9 @@
+conflict(myModuleName())
+prereq("MATLAB")
+
+local dirname = require 'posix.libgen'.dirname
+local basepath = pathJoin(dirname(dirname(dirname(dirname(myFileName())))),"software",myModuleName(),myModuleVersion(),"install")
+
+
+prepend_path( "MATLABPATH",           pathJoin(basepath,"plscmd"))
+prepend_path( "MATLABPATH",           pathJoin(basepath,"plsgui"))

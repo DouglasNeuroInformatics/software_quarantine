@@ -1,0 +1,29 @@
+conflict(myModuleName())
+conflict("minc-toolkit-v2")
+
+local dirname = require 'posix.libgen'.dirname
+local basepath = pathJoin(dirname(dirname(dirname(dirname(myFileName())))),"software",myModuleName(),myModuleVersion(),"install/freesurfer")
+
+
+setenv( "FREESURFER", basepath)
+setenv( "FREESURFER_HOME", basepath)
+
+setenv( "MNI_DATAPATH", pathJoin(basepath,"mni/data"))
+setenv( "FS_OVERRIDE", "0")
+setenv( "FSF_OUTPUT_FORMAT", "nii.gz")
+setenv( "FUNCTIONALS_DIR", pathJoin(basepath,"sessions"))
+setenv( "MINC_LIB_DIR", pathJoin(basepath,"mni/lib"))
+setenv( "FMRI_ANALYSIS_DIR", pathJoin(basepath,"fsfast"))
+setenv( "MNI_DIR", pathJoin(basepath,"mni"))
+setenv( "MNI_PERL5LIB", pathJoin(basepath,"mni/share/perl5"))
+setenv( "LOCAL_DIR", pathJoin(basepath,"local"))
+setenv( "FIX_VERTEX_AREA", "")
+setenv( "SUBJECTS_DIR",  pathJoin(basepath,"subjects"))
+
+
+
+prepend_path( "PATH",           pathJoin(basepath,"bin"))
+prepend_path( "PATH",						pathJoin(basepath,"fsfast"))
+prepend_path( "PATH",						pathJoin(basepath,"mni/bin"))
+prepend_path( "PATH",						pathJoin(basepath,"tktools"))
+setenv( "PERL5LIB", pathJoin(basepath,"mni/share/perl5"))

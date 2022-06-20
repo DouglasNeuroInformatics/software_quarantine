@@ -1,0 +1,10 @@
+conflict(myModuleName())
+prereq("R/4.1.3")
+prereq("minc-toolkit-v2/1.9.18.2")
+
+local dirname = require 'posix.libgen'.dirname
+local basepath = pathJoin(dirname(dirname(dirname(dirname(myFileName())))),"software",myModuleName(),myModuleVersion(),"install")
+
+setenv( "RMINC_BATCH_CONF", pathJoin(basepath,"../dnp_batchtools.R") )
+
+prepend_path( "R_LIBS",           basepath)

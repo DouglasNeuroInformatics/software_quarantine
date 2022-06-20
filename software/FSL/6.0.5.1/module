@@ -1,0 +1,16 @@
+conflict(myModuleName())
+
+local dirname = require 'posix.libgen'.dirname
+local basepath = pathJoin(dirname(dirname(dirname(dirname(myFileName())))),"software",myModuleName(),myModuleVersion(),"install")
+
+setenv( "FSLDIR", basepath )
+setenv( "FSLOUTPUTTYPE", "NIFTI_GZ" )
+setenv( "FSLMULTIFILEQUIT", "TRUE" )
+setenv( "FSLTCLSH", pathJoin(FSLDIR,"bin/fsltclsh") )
+setenv( "FSLWISH", pathJoin(FSLDIR, "bin/fslwish") )
+setenv( "FSLLOCKDIR", "")
+setenv( "FSLMACHINELIST", "")
+setenv( "FSLREMOTECALL", "")
+setenv( "FSLGECUDAQ", "")
+
+prepend_path( "PATH",           pathJoin(basepath,"bin"))
