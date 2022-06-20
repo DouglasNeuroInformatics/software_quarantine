@@ -1,0 +1,5 @@
+#Mamba, and dependencies for pydpiper
+#mamba install mamba -n base -c conda-forge
+mamba install -c conda-forge pyro4 ordered-set
+mamba install vtk ConfigArgParse Jinja2 networkx pandas
+pip install qbatch
