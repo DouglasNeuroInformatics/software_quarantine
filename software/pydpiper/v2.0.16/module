@@ -1,0 +1,11 @@
+conflict(myModuleName())
+prereq("minc-toolkit-v2")
+prereq("minc-stuffs")
+prereq("anaconda/2022.05")
+
+local dirname = require 'posix.libgen'.dirname
+local basepath = pathJoin(dirname(dirname(dirname(dirname(myFileName())))),"software",myModuleName(),myModuleVersion(),"install")
+
+
+prepend_path( "PATH",           pathJoin(basepath,"bin"))
+prepend_path( "PYTHONPATH", 		pathJoin(basepath,"lib/python3.9/site-packages"))
