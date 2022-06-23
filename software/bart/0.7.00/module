@@ -1,0 +1,10 @@
+conflict(myModuleName())
+
+local dirname = require 'posix.libgen'.dirname
+local basepath = pathJoin(dirname(dirname(dirname(dirname(myFileName())))),"software",myModuleName(),myModuleVersion(),"install")
+
+setenv( "TOOLBOX_PATH", basepath )
+
+prepend_path( "PATH",           pathJoin(basepath,"bin"))
+prepend_path( "MATLABPATH",           pathJoin(basepath,"matlab"))
+prepend_path( "PYTHONPATH",             pathJoin(basepath,"python"))
