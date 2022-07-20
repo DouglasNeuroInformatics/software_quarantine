@@ -12,5 +12,5 @@ mkdir -p ${install_prefix}
 
 ( cd ${build_prefix}
 cmake ../ANTs -DCMAKE_INSTALL_PREFIX=${install_prefix} -DITK_BUILD_MINC_SUPPORT=ON -DUSE_VTK=ON -DBUILD_TESTING=OFF  &&
-make -j12 &&
+make -j12 && cd ANTS-build &&
 make install )

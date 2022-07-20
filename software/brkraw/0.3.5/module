@@ -1,0 +1,15 @@
+conflict(myModuleName())
+prereq("anaconda")
+
+local dirname = require 'posix.libgen'.dirname
+local basepath = pathJoin(dirname(dirname(dirname(dirname(myFileName())))),"software",myModuleName(),myModuleVersion(),"brkraw")
+
+execute {
+    cmd = "conda activate " .. basepath,
+    modeA = {"load"}
+}
+
+ execute {
+     cmd = "conda deactivate",
+     modeA = {"unload"}
+ }

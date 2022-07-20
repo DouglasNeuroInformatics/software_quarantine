@@ -33,6 +33,7 @@ r-aer
 r-afex
 r-aggregation
 r-agricolae
+r-agtboost
 r-ahocorasicktrie
 r-aiccmodavg
 r-airr
@@ -121,6 +122,7 @@ r-automap
 r-autoplotly
 r-autoshiny
 r-autospill
+r-autostats
 r-av
 r-available
 r-aws
@@ -133,6 +135,7 @@ r-babynames
 r-backbone
 r-backports
 r-bactdating
+r-badger
 r-baguette
 r-bain
 r-bamlss
@@ -171,11 +174,13 @@ r-bdgraph
 r-bdsmatrix
 r-beanplot
 r-bedr
+r-bedtoolsr
 r-beepr
 r-beeswarm
 r-bench
 r-benchmarkme
 r-benchmarkmedata
+r-berryfunctions
 r-bestglm
 r-bestnormalize
 r-betareg
@@ -316,6 +321,7 @@ r-celestial
 r-cellassign
 r-cellranger
 r-cenroc
+r-censored
 r-censusapi
 r-censusgeography
 r-cetcolor
@@ -347,6 +353,7 @@ r-ckmeans.1d.dp
 r-class
 r-classdiscovery
 r-classint
+r-cleanrmd
 r-cli
 r-cliapp
 r-clickr
@@ -354,6 +361,7 @@ r-climate4r.climdex
 r-climate4r.datasets
 r-climate4r.indices
 r-climate4r.udg
+r-climate4r.value
 r-climdex.pcic
 r-climprojdiags
 r-clinfun
@@ -544,6 +552,7 @@ r-devtools
 r-dfidx
 r-dfoptim
 r-dgeclustering
+r-dggridr
 r-dgof
 r-dharma
 r-diagram
@@ -588,16 +597,20 @@ r-distributional
 r-distributionutils
 r-distutils
 r-divemove
+r-diversity
 r-dlookr
+r-dlstats
 r-dml
 r-dmt
 r-dmwr
 r-dmwr2
+r-dnapath
 r-dnet
 r-doby
 r-doc2vec
 r-dockerfiler
 r-docopt
+r-documenter
 r-docxtools
 r-dofuture
 r-domc
@@ -611,6 +624,7 @@ r-dotwhisker
 r-downlit
 r-downloader
 r-downscaler
+r-downscaler.keras
 r-dowser
 r-dparser
 r-dpeak
@@ -649,6 +663,7 @@ r-eacon
 r-earth
 r-easycsv
 r-easydescribe
+r-easydifferentialgenecoexpression
 r-easyncdf
 r-easypubmed
 r-easyverification
@@ -678,6 +693,7 @@ r-ellipsis
 r-elliptic
 r-elpigraph.r
 r-emayili
+r-embed
 r-emc
 r-emcluster
 r-emdbook
@@ -766,6 +782,7 @@ r-fastmatrix
 r-fastnaivebayes
 r-fastqcr
 r-fasttime
+r-fastverse
 r-fateid
 r-faviconplease
 r-fbasics
@@ -818,6 +835,7 @@ r-fmsb
 r-fmstable
 r-fmultivar
 r-fnn
+r-foci
 r-fontawesome
 r-fontbitstreamvera
 r-fontliberation
@@ -839,6 +857,7 @@ r-fourpno
 r-fpc
 r-fpp2
 r-fracdiff
+r-framecleaner
 r-freerange
 r-freetypeharfbuzz
 r-freqprof
@@ -893,6 +912,7 @@ r-genabel
 r-genabel.data
 r-genalg
 r-gender
+r-geneexpressionfromgeo
 r-genemodel
 r-genenet
 r-generalizedhyperbolic
@@ -920,6 +940,7 @@ r-geomapdata
 r-geometa
 r-geometries
 r-geometry
+r-geomtextpath
 r-geoprocessor
 r-geor
 r-george
@@ -943,10 +964,13 @@ r-ggbump
 r-ggcharts
 r-ggconf
 r-ggcorrplot
+r-ggcorset
 r-ggdark
 r-ggdendro
+r-ggdensity
 r-ggdist
 r-ggdistribute
+r-ggeasy
 r-ggedit
 r-ggeffects
 r-ggextra
@@ -973,6 +997,7 @@ r-ggmice
 r-ggmosaic
 r-ggmsa
 r-ggmuller
+r-ggmulti
 r-ggnetwork
 r-ggnewscale
 r-ggpage
@@ -992,7 +1017,9 @@ r-ggprism
 r-ggpubr
 r-ggpval
 r-ggquickeda
+r-ggrandomforests
 r-ggraph
+r-ggraptr
 r-ggrasp
 r-ggrastr
 r-ggrepel
@@ -1068,6 +1095,7 @@ r-gprofiler2
 r-gpseq
 r-gptk
 r-graddescent
+r-grafify
 r-grain
 r-graphicalvar
 r-graphlayouts
@@ -1100,6 +1128,7 @@ r-gsubfn
 r-gsw
 r-gt
 r-gtable
+r-gtextras
 r-gtools
 r-gtsummary
 r-guilds
@@ -1164,6 +1193,7 @@ r-howmany
 r-hrbrthemes
 r-hsaur
 r-htm2txt
+r-htmltab
 r-htmltable
 r-htmltools
 r-htmlutils
@@ -1176,6 +1206,7 @@ r-httpcode
 r-httpgd
 r-httpuv
 r-httr
+r-httr2
 r-hues
 r-huge
 r-humaniformat
@@ -1273,6 +1304,7 @@ r-jade
 r-janeaustenr
 r-janitor
 r-jcolors
+r-jetset
 r-jfa
 r-jjb
 r-jmv
@@ -1403,6 +1435,7 @@ r-lisi
 r-lisreltor
 r-listarrays
 r-listenv
+r-listviewer
 r-littler
 r-lle
 r-lmds
@@ -1522,7 +1555,9 @@ r-mcpcounter
 r-mda
 r-mdmr
 r-mdscore
+r-measures
 r-medicalrisk
+r-medrxivr
 r-mefa
 r-memoise
 r-memuse
@@ -1639,6 +1674,7 @@ r-mongolite
 r-monocle3
 r-moonbook
 r-mopa
+r-moreparty
 r-mosaic
 r-mosaiccalc
 r-mosaiccore
@@ -1658,6 +1694,7 @@ r-msar
 r-mschart
 r-msgps
 r-msigdbr
+r-mskcc.oncotree
 r-msm
 r-msos
 r-msqc
@@ -1788,10 +1825,12 @@ r-ocedata
 r-odbc
 r-officedown
 r-officer
+r-olinkanalyze
 r-olsrr
 r-omicnavigator
 r-oncopharmadb
 r-onehot
+r-oner
 r-onewaytests
 r-ontologyindex
 r-ontologyplot
@@ -1832,10 +1871,12 @@ r-osqp
 r-outliers
 r-pack
 r-packrat
+r-pacman
 r-paco
 r-padr
 r-pafr
 r-pagedown
+r-pagoda2
 r-paintmap
 r-paireddata
 r-pairsd3
@@ -1870,6 +1911,7 @@ r-patchwork
 r-pathdiagram
 r-pathmodelfit
 r-pathological
+r-pathwaytmb
 r-patpro
 r-patrick
 r-paws
@@ -2028,6 +2070,7 @@ r-predictmeans
 r-preferably
 r-preregr
 r-presenceabsence
+r-presenter
 r-preseqr
 r-prestor
 r-prettycode
@@ -2123,6 +2166,7 @@ r-quanteda.textplots
 r-quanteda.textstats
 r-quantmod
 r-quantreg
+r-quarto
 r-questionr
 r-quilt
 r-quorts
@@ -2171,6 +2215,7 @@ r-rapport
 r-rapportools
 r-rarpack
 r-raster
+r-rasterdiv
 r-rastervis
 r-ratelimitr
 r-raters
@@ -2352,6 +2397,7 @@ r-rmallow
 r-rmapshaper
 r-rmariadb
 r-rmarkdown
+r-rmatio
 r-r.matlab
 r-rmcfs
 r-rmdformats
@@ -2449,6 +2495,7 @@ r-rstan
 r-rstanarm
 r-rstantools
 r-rstatix
+r-rstoolbox
 r-rstpm2
 r-rstudioapi
 r-rsvd
@@ -2495,6 +2542,7 @@ r-sampling
 r-sampsurf
 r-samr
 r-sandwich
+r-santoku
 r-sartools
 r-sass
 r-satellite
@@ -2515,6 +2563,7 @@ r-schtools
 r-scico
 r-scimpute
 r-sciplot
+r-scoper
 r-scorecard
 r-scpred
 r-scrime
@@ -2542,12 +2591,14 @@ r-semnetdictionaries
 r-semplot
 r-semtools
 r-semver
+r-sen2r
 r-sendmailr
 r-sentimentanalysis
 r-sentimentr
 r-seqinr
 r-seqmagick
 r-seqminer
+r-seqnet
 r-sequenza
 r-seriation
 r-servr
@@ -2596,6 +2647,7 @@ r-shinylp
 r-shinymanager
 r-shinymatrix
 r-shinymeta
+r-shinymodels
 r-shinypanel
 r-shinyscreenshot
 r-shiny.semantic
@@ -2621,6 +2673,7 @@ r-simcomp
 r-simfit
 r-simpleboot
 r-simplecache
+r-simplevis
 r-sinaplot
 r-sinew
 r-singlecellnet
@@ -2646,6 +2699,7 @@ r-slim
 r-slippymath
 r-sm
 r-smacof
+r-smarteda
 r-smartsva
 r-smatr
 r-sme
@@ -2760,6 +2814,7 @@ r-stanova
 r-stapler
 r-stargazer
 r-stars
+r-starticles
 r-startr
 r-startupmsg
 r-statar
@@ -2790,6 +2845,7 @@ r-subplex
 r-subselect
 r-subspace
 r-summarytools
+r-sunburstr
 r-superheat
 r-superlearner
 r-superpc
@@ -2800,10 +2856,12 @@ r-survauc
 r-surveillance
 r-survey
 r-survival
+r-survival666
 r-survivalanalysis
 r-survivalmodels
 r-survivalroc
 r-survivalsvm
+r-survmetrics
 r-survminer
 r-survmisc
 r-survpresmooth
@@ -2901,7 +2959,9 @@ r-tibbletime
 r-tictoc
 r-tidybayes
 r-tidybf
+r-tidybins
 r-tidycensus
+r-tidyconsultant
 r-tidygate
 r-tidygenomics
 r-tidygeocoder
@@ -2989,6 +3049,7 @@ r-tsna
 r-tsne
 r-tsoutliers
 r-tsp
+r-ttdo
 r-ttr
 r-tufte
 r-tune
@@ -3032,9 +3093,11 @@ r-useful
 r-userfriendlyscience
 r-usethis
 r-utf8
+r-utility
 r-uuid
 r-uwot
 r-v8
+r-validata
 r-validate
 r-valr
 r-value
@@ -3042,6 +3105,7 @@ r-vam
 r-varfrompdb
 r-varhandle
 r-variancegamma
+r-varimp
 r-vars
 r-varselrf
 r-vbsr
@@ -3116,6 +3180,7 @@ r-whopgenome
 r-wicket
 r-widgetframe
 r-widyr
+r-wiesbaden
 r-wikidataqueryservicer
 r-wikidatar
 r-wikipedir
@@ -3147,6 +3212,7 @@ r-xgboost
 r-xgboost-cpu
 r-xgboost-gpu
 r-xgr
+r-xicor
 r-xlconnect
 r-xlconnectjars
 r-xlsx
