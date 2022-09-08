@@ -2,3 +2,4 @@ resources
 lmod
 src
 software/*/*/install
+software/minc-toolkit-v2/packagecache
