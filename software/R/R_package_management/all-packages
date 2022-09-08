@@ -1,3 +1,4 @@
+r-abdiv
 r-abind
 r-abtest
 r-academictwitter
@@ -147,6 +148,7 @@ r-base64enc
 r-base64url
 r-basejump
 r-baseline
+r-basetheme
 r-basictrendline
 r-basix
 r-batch
@@ -157,6 +159,7 @@ r-bayesforecast
 r-bayeslogit
 r-bayesm
 r-bayesplot
+r-bayesprism
 r-bayesrel
 r-bayestestr
 r-bayestools
@@ -277,6 +280,7 @@ r-bsplus
 r-bstats
 r-bsts
 r-btyd
+r-bulkanalyser
 r-butcher
 r-bwstest
 r-c3net
@@ -309,6 +313,7 @@ r-catnet
 r-catools
 r-catt
 r-cba
+r-cbioportalr
 r-ccapp
 r-ccdralgorithm
 r-ccp
@@ -330,6 +335,7 @@ r-cgdsr
 r-cghflasso
 r-changeforest
 r-changepoint
+r-changepoint.np
 r-chbutils
 r-chebpol
 r-checkmate
@@ -433,6 +439,7 @@ r-condformat
 r-conditionz
 r-condsurv
 r-config
+r-confintr
 r-conflicted
 r-conflr
 r-conicfit
@@ -496,6 +503,7 @@ r-d3network
 r-d3r
 r-daff
 r-dagitty
+r-dagwood
 r-dalex
 r-dapr
 r-dartr
@@ -506,6 +514,7 @@ r-datamods
 r-datapasta
 r-data.table
 r-data.tree
+r-data.validator
 r-datavisualizations
 r-datawizard
 r-dbarts
@@ -572,6 +581,7 @@ r-digest
 r-dimred
 r-dimsum
 r-dina
+r-dinamic
 r-diptest
 r-dire
 r-directlabels
@@ -584,6 +594,7 @@ r-discriminer
 r-disk.frame
 r-dismo
 r-disordr
+r-disprose
 r-dissutils
 r-distances
 r-distcomp
@@ -712,6 +723,7 @@ r-english
 r-enmeval
 r-enrichr
 r-enrichwith
+r-ensmodelvis
 r-ensr
 r-ensurer
 r-entropy
@@ -862,6 +874,7 @@ r-freerange
 r-freetypeharfbuzz
 r-freqprof
 r-fresh
+r-frictionless
 r-fs
 r-fsa
 r-fselector
@@ -961,6 +974,7 @@ r-ggbeeswarm
 r-ggbiplot
 r-ggblanket
 r-ggbump
+r-ggchangepoint
 r-ggcharts
 r-ggconf
 r-ggcorrplot
@@ -1000,6 +1014,7 @@ r-ggmuller
 r-ggmulti
 r-ggnetwork
 r-ggnewscale
+r-ggpackets
 r-ggpage
 r-ggparallel
 r-ggparty
@@ -1027,6 +1042,7 @@ r-ggresidpanel
 r-ggridges
 r-ggsci
 r-ggseqlogo
+r-ggseqplot
 r-ggside
 r-ggsignif
 r-ggsn
@@ -1430,6 +1446,7 @@ r-linkcomm
 r-linprog
 r-linselect
 r-lintr
+r-lipidomer
 r-liqueuer
 r-lisi
 r-lisreltor
@@ -1579,6 +1596,7 @@ r-metarnaseq
 r-metaskat
 r-metbrewer
 r-metr
+r-metrica
 r-metrics
 r-mets
 r-metstat
@@ -1616,6 +1634,7 @@ r-missforest
 r-missmda
 r-mitml
 r-mitools
+r-mixedcca
 r-mixkernel
 r-mixomics
 r-mixsmsn
@@ -1763,6 +1782,7 @@ r-ncvreg
 r-ndjson
 r-neldermead
 r-neo4r
+r-netcomi
 r-netmeta
 r-netrankr
 r-netrep
@@ -1798,6 +1818,7 @@ r-nnls
 r-nntensor
 r-nodiv
 r-noisefiltersr
+r-noisyr
 r-nomclust
 r-nor1mix
 r-norm
@@ -1807,6 +1828,7 @@ r-nozzle.r1
 r-np
 r-nparcomp
 r-npflow
+r-nplyr
 r-npregfast
 r-npsurv
 r-nsga2r
@@ -2064,6 +2086,7 @@ r-pracma
 r-praise
 r-praznik
 r-precisesums
+r-precommit
 r-precrec
 r-prediction
 r-predictmeans
@@ -2307,6 +2330,7 @@ r-recetox-xmsannotator
 r-recipes
 r-recommended
 r-recordlinkage
+r-recosystem
 r-redshifttools
 r-reffreeewas
 r-refgenome
@@ -2370,6 +2394,7 @@ r-rintrojs
 r-rio
 r-rioja
 r-riskclustr
+r-riskmetric
 r-riskregression
 r-rismed
 r-ritis
@@ -2514,6 +2539,7 @@ r-rtweet
 r-rubic
 r-runit
 r-runjags
+r-runner
 r-r.utils
 r-ruv
 r-rvaidememoire
@@ -2564,6 +2590,7 @@ r-scico
 r-scimpute
 r-sciplot
 r-scoper
+r-scopfunctions
 r-scorecard
 r-scpred
 r-scrime
@@ -2791,6 +2818,7 @@ r-spocc
 r-spotifyr
 r-spp
 r-spray
+r-spring
 r-spscomps
 r-spsutil
 r-spthin
@@ -2892,6 +2920,7 @@ r-systemfit
 r-systemfonts
 r-syuzhet
 r-table1
+r-tableone
 r-tablerdash
 r-tables
 r-tabulizer
@@ -2966,6 +2995,7 @@ r-tidygate
 r-tidygenomics
 r-tidygeocoder
 r-tidygraph
+r-tidyheatmap
 r-tidyjson
 r-tidylog
 r-tidymodels
@@ -2993,6 +3023,7 @@ r-timeroc
 r-timeseries
 r-timetk
 r-timsac
+r-tinyarray
 r-tinytest
 r-tinytex
 r-tippy
@@ -3075,6 +3106,7 @@ r-ufs
 r-uiucthemes
 r-umap
 r-umi4c
+r-umianalyzer
 r-umx
 r-unbalanced
 r-uniprotr
@@ -3087,6 +3119,7 @@ r-upsetjs
 r-upsetr
 r-uptasticsearch
 r-urca
+r-urlchecker
 r-urltools
 r-uroot
 r-useful
