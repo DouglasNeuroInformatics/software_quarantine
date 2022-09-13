@@ -11,6 +11,7 @@ bioconductor-biocparallel
 bioconductor-biocversion
 bioconductor-biomart
 bioconductor-biostrings
+bioconductor-complexheatmap
 bioconductor-delayedarray
 bioconductor-delayedmatrixstats
 bioconductor-deseq2
@@ -156,11 +157,13 @@ r-class
 r-cli
 r-cliapp
 r-clipr
+r-clue
 r-cluster
 r-coda
 r-codetools
 r-coin
 r-collections
+r-colorramps
 r-colorspace
 r-colourpicker
 r-combinat
@@ -260,6 +263,7 @@ r-geem
 r-geepack
 r-generics
 r-gert
+r-getoptlong
 r-ggalluvial
 r-ggally
 r-ggalt
@@ -756,6 +760,7 @@ r-warp
 r-wavethresh
 r-webshot
 r-weights
+r-wesanderson
 r-wgcna
 r-whisker
 r-withr

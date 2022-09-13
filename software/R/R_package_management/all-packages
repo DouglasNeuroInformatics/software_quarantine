@@ -184,6 +184,7 @@ r-bench
 r-benchmarkme
 r-benchmarkmedata
 r-berryfunctions
+r-best
 r-bestglm
 r-bestnormalize
 r-betareg
@@ -268,6 +269,7 @@ r-bridgesampling
 r-brio
 r-brms
 r-brobdingnag
+r-broman
 r-broom
 r-broomextra
 r-broom.helpers
@@ -280,6 +282,7 @@ r-bsplus
 r-bstats
 r-bsts
 r-btyd
+r-bucss
 r-bulkanalyser
 r-butcher
 r-bwstest
@@ -582,6 +585,7 @@ r-dimred
 r-dimsum
 r-dina
 r-dinamic
+r-dinamic.duo
 r-diptest
 r-dire
 r-directlabels
@@ -696,6 +700,7 @@ r-effectsize
 r-effsize
 r-egg
 r-eigenmodel
+r-eikosograms
 r-einsum
 r-elasticnet
 r-elitism
@@ -979,6 +984,7 @@ r-ggcharts
 r-ggconf
 r-ggcorrplot
 r-ggcorset
+r-ggcoverage
 r-ggdark
 r-ggdendro
 r-ggdensity
@@ -1054,6 +1060,7 @@ r-ggtern
 r-ggtext
 r-ggthemes
 r-ggupset
+r-ggvenndiagram
 r-ggvis
 r-ggwordcloud
 r-gh
@@ -1229,9 +1236,12 @@ r-humaniformat
 r-hunspell
 r-huxtable
 r-hwriter
+r-hydrogof
+r-hydrotsm
 r-hyper2
 r-hypergea
 r-hypergeo
+r-hypetools
 r-ibd
 r-ibreakdown
 r-ic10
@@ -1278,6 +1288,7 @@ r-inspectdf
 r-intamap
 r-intego
 r-integr
+r-interactions
 r-intergraph
 r-interp
 r-interpretmsspectrum
@@ -1337,6 +1348,7 @@ r-jsonvalidate
 r-jtools
 r-juliacall
 r-juniperkernel
+r-justifyalpha
 r-kableextra
 r-kaos
 r-kappalab
@@ -1348,6 +1360,7 @@ r-kerasformula
 r-kernelknn
 r-kernlab
 r-kernsmooth
+r-kernsmoothirt
 r-keyring
 r-keys
 r-kfas
@@ -1393,6 +1406,7 @@ r-laplacesdemon
 r-lars
 r-lasso2
 r-lassopv
+r-latentcor
 r-latentnet
 r-later
 r-latex2exp
@@ -1466,6 +1480,7 @@ r-lmodel2
 r-lmom
 r-lmomco
 r-lmoments
+r-lmperm
 r-lmtest
 r-lmvar
 r-lncpipereporter
@@ -1572,6 +1587,7 @@ r-mcpcounter
 r-mda
 r-mdmr
 r-mdscore
+r-measurements
 r-measures
 r-medicalrisk
 r-medrxivr
@@ -1698,6 +1714,7 @@ r-mosaic
 r-mosaiccalc
 r-mosaiccore
 r-mosaicdata
+r-mote
 r-motifbinner
 r-mpinet
 r-mpm
@@ -1729,6 +1746,7 @@ r-multiclasspairs
 r-multicool
 r-multidplyr
 r-multigroup
+r-multilevel
 r-multimode
 r-multinet
 r-multipanelfigure
@@ -1812,6 +1830,7 @@ r-nls2
 r-nlsic
 r-nmf
 r-nmi
+r-nmslibr
 r-nnet
 r-nnlasso
 r-nnls
@@ -1872,6 +1891,7 @@ r-operator.tools
 r-optextras
 r-optimalcutpoints
 r-optimbase
+r-optimparallel
 r-optimr
 r-optimsimplex
 r-optimx
@@ -2142,6 +2162,7 @@ r-pscl
 r-pspearman
 r-pspline
 r-psych
+r-psychometric
 r-psychotools
 r-psychotree
 r-psychtools
@@ -2151,6 +2172,7 @@ r-publish
 r-pubmed.miner
 r-pubmedwordcloud
 r-pulsar
+r-puniform
 r-purbayes
 r-purrr
 r-purrrlyr
@@ -2188,6 +2210,7 @@ r-quanteda.textmodels
 r-quanteda.textplots
 r-quanteda.textstats
 r-quantmod
+r-quantpsyc
 r-quantreg
 r-quarto
 r-questionr
@@ -2258,6 +2281,7 @@ r-rborist
 r-r.cache
 r-rcapture
 r-rcarb
+r-rcartocolor
 r-rccmisc
 r-rcdk
 r-rcdklibs
@@ -2331,6 +2355,7 @@ r-recipes
 r-recommended
 r-recordlinkage
 r-recosystem
+r-redlistr
 r-redshifttools
 r-reffreeewas
 r-refgenome
@@ -2475,6 +2500,7 @@ r-rosm
 r-rotl
 r-roughsets
 r-roxygen2
+r-rpact
 r-rpart
 r-rpart.plot
 r-rpf
@@ -2544,6 +2570,7 @@ r-r.utils
 r-ruv
 r-rvaidememoire
 r-rvcheck
+r-rvenn
 r-rversions
 r-rvertnet
 r-rvest
@@ -2603,6 +2630,7 @@ r-sda
 r-sdcmicro
 r-sdmtools
 r-seacarb
+r-seamless
 r-searcher
 r-seasonal
 r-secutrialr
@@ -2942,6 +2970,7 @@ r-tcga2stat
 r-tcltk2
 r-tclust
 r-tcpl
+r-tcplfit2
 r-tcr
 r-tdboost
 r-teachingdemos
@@ -2990,6 +3019,7 @@ r-tidybayes
 r-tidybf
 r-tidybins
 r-tidycensus
+r-tidycmprsk
 r-tidyconsultant
 r-tidygate
 r-tidygenomics
@@ -3027,6 +3057,7 @@ r-tinyarray
 r-tinytest
 r-tinytex
 r-tippy
+r-titanic
 r-tkrgl
 r-tkrplot
 r-tm
@@ -3272,6 +3303,7 @@ r-yesno
 r-ymlthis
 r-yulab.utils
 r-zcompositions
+r-zcurve
 r-zeallot
 r-zerone
 r-zip
