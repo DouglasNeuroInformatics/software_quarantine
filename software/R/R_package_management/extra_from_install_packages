@@ -1,3 +1,4 @@
 latexpdf
 Hotelling
 CCA
+devtools::install_github("GRousselet/rogme")

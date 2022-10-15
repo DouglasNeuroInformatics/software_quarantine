@@ -1,7 +1,10 @@
 conflict(myModuleName())
+prereq("MATLAB")
+prereq("SPM12")
 
 local dirname = require 'posix.libgen'.dirname
 local basepath = pathJoin(dirname(dirname(dirname(dirname(myFileName())))),"software",myModuleName(),myModuleVersion(),"install")
 
 
+prepend_path( "MATLABPATH",          pathJoin(basepath,"SPM"))
 prepend_path( "PATH", basepath)

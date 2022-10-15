@@ -1,7 +1,10 @@
 conflict(myModuleName())
+prereq("MATLAB")
 
 local dirname = require 'posix.libgen'.dirname
 local basepath = pathJoin(dirname(dirname(dirname(dirname(myFileName())))),"software",myModuleName(),myModuleVersion(),"install")
 
 
-prepend_path( "PATH", basepath)
+prepend_path( "MATLABPATH",           pathJoin(basepath,"gift-4.0.3.0/GroupICATv4.0c/icatb"))
+
+LmodMessage ("Run the function gift to enable the toolbox upon starting MATLAB")
