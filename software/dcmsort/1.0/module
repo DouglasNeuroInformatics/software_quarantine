@@ -1,0 +1,8 @@
+conflict(myModuleName())
+
+local dirname = require 'posix.libgen'.dirname
+local basepath = pathJoin(dirname(dirname(dirname(dirname(myFileName())))),"software",myModuleName(),myModuleVersion(),"install")
+
+
+prepend_path( "PATH",           pathJoin(basepath,"bin"))
+prepend_path( "PERL5LIB",				pathJoin(basepath,"share/perl/5.34.0"))
