@@ -1,9 +1,8 @@
 cluster.functions <-
-  makeClusterFunctionsSlurm(system.file("parallel/slurm_script.tmpl"
-                                      , package = "RMINC"))
+  makeClusterFunctionsSlurm("/opt/quarantine/software/RMINC/slurm_script.tmpl")
 
 default.resources <-
-  list(memory = "8G"
-     , walltime = 120
+  list(memory = "2G"
+     , walltime = 7200
      , ntasks = 1
      , ncpus = 1)
