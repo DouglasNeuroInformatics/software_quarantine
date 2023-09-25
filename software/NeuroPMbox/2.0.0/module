@@ -1,0 +1,11 @@
+conflict(myModuleName())
+
+local dirname = require 'posix.libgen'.dirname
+local basepath = pathJoin(dirname(dirname(dirname(dirname(myFileName())))),"software",myModuleName(),myModuleVersion(),"install")
+
+
+prepend_path( "PATH",           basepath)
+prepend_path("LD_LIBRARY_PATH", pathJoin(basepath,"mcr/v911/extern/bin/glnxa64"))
+prepend_path("LD_LIBRARY_PATH", pathJoin(basepath,"mcr/v911/sys/os/glnxa64"))
+prepend_path("LD_LIBRARY_PATH", pathJoin(basepath,"mcr/v911/bin/glnxa64"))
+prepend_path("LD_LIBRARY_PATH", pathJoin(basepath,"mcr/v911/runtime/glnxa64"))
