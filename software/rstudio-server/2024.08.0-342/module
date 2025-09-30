@@ -1,8 +1,7 @@
 conflict(myModuleName())
+prereq("R")
 
 local dirname = require 'posix.libgen'.dirname
 local basepath = pathJoin(dirname(dirname(dirname(dirname(myFileName())))),"software",myModuleName(),myModuleVersion(),"install")
 
-setenv( "ANTSPATH", pathJoin(basepath,"bin/") )
-
-prepend_path( "PATH",           pathJoin(basepath,"bin"))
+prepend_path( "PATH",           basepath)

@@ -13,3 +13,5 @@ execute {
      cmd = "conda deactivate",
      modeA = {"unload"}
  }
+
+prepend_path ("R_LIBS" , pathJoin(basepath,"r-base/lib/R/library"))

@@ -1,0 +1,46 @@
+#!/bin/bash
+
+set -euo pipefail
+
+#set -x
+
+SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+
+
+function EPHEMERAL_PORT() {
+    LOW_BOUND=49152
+    RANGE=16384
+    while true; do
+        CANDIDATE=$[$LOW_BOUND + ($RANDOM % $RANGE)]
+        (echo -n "" >/dev/tcp/127.0.0.1/${CANDIDATE}) >/dev/null 2>&1
+        if [ $? -ne 0 ]; then
+            echo $CANDIDATE
+            break
+        fi
+    done
+}
+
+PORT=$(EPHEMERAL_PORT)
+RSTUDIO_SERVER_BASE=$HOME/.local/rstudio-server
+
+mkdir -p ${RSTUDIO_SERVER_BASE}
+echo "directory=${RSTUDIO_SERVER_BASE}" >  ${RSTUDIO_SERVER_BASE}/database.conf
+echo "r-restore-workspace=0" > ${RSTUDIO_SERVER_BASE}/rsession.conf
+
+echo "R_LIBS_SITE=${R_LIBS}" > ~/.Renviron
+
+echo rstudio-server listening on http://127.0.0.1:${PORT}
+echo "Press Ctrl-C when done to shutdown"
+
+${SCRIPT_DIR}/bin/rserver \
+--server-working-dir $PWD \
+--auth-none=1 \
+--www-frame-origin=same \
+--www-port=${PORT} \
+--www-address=127.0.0.1 \
+--www-verify-user-agent=0 \
+--server-data-dir=${RSTUDIO_SERVER_BASE} \
+--server-pid-file=${RSTUDIO_SERVER_BASE}/rstudio.pid \
+--server-user=$USER \
+--database-config-file=${RSTUDIO_SERVER_BASE}/database.conf \
+--rsession-config-file=${RSTUDIO_SERVER_BASE}/rsession.conf

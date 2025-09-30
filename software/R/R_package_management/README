@@ -1,0 +1,7 @@
+# Installation Process
+
+1. Try to find package in conda package list
+2. If not, try to install in a personal repo using pak and note dependencies
+3. Install all dependencies from conda versions
+4. Install real package using pak
+5. Document packages inside the manual package list files

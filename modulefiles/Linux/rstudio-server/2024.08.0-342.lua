@@ -1,0 +1,1 @@
+../../../software/rstudio-server/2024.08.0-342/module

@@ -5,3 +5,8 @@ local basepath = pathJoin(dirname(dirname(dirname(dirname(myFileName())))),"soft
 
 
 prepend_path( "PATH",           basepath)
+
+prepend_path("LD_LIBRARY_PATH", pathJoin(basepath,"mcr/v82/runtime/glnxa64"))
+prepend_path("LD_LIBRARY_PATH", pathJoin(basepath,"mcr/v82/bin/glnxa64"))
+prepend_path("LD_LIBRARY_PATH", pathJoin(basepath,"mcr/v82/sys/os/glnxa64"))
+setenv("XAPPLRESDIR", pathJoin(basepath, "mcr/v82/X11/app-defaults"))
